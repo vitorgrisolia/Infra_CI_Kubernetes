@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "terraform-state-vito"
-    key    = "env:/terraform.tfstate"
-    region = "us-west-2"
+    key    = "Prod/terraform.tfstate"
+    region = "us-east-2"
   }
 }
