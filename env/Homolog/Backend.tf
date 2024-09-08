@@ -3,5 +3,6 @@ terraform {
     bucket = "terraform-state-vitor"
     key    = "Prod/terraform.tfstate"
     region = "us-east-2"
+    encrypt = true
   }
 }
